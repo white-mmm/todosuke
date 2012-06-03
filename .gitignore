@@ -1,0 +1,5 @@
+#.DS_Storeを無視する
+.DS_Store
+  
+#todosukeディレクトリ以下は無視
+todosuke/
