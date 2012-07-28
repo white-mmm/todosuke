@@ -8,14 +8,30 @@
     登録
     </p>
     <FORM>
-      タイトル　：<INPUT type="text" name="txt_title"><br><br>
-      内容　　　：<TEXTAREA cols="30" rows="5" name="txt_naiyou"></TEXTAREA><br><br>
-      ステータス：<SELECT name="status">
-                  <OPTION value="micyakusyu">未着手</OPTION>
-                  <OPTION value="cyakusyucyu">着手中</OPTION>
-                  <OPTION value="kanryou">完了</OPTION>
-                </SELECT><br><br>
-                <input type="button" value="登録" onclick="">
+      <table cellpadding="3">
+      <tr>
+        <td align="right">タイトル：</td>
+        <td><INPUT type="text" name="txt_title"></td>
+      </tr>
+      <tr>
+        <td align="right" valign="top">内容：</td>
+        <td><TEXTAREA cols="30" rows="5" name="txt_naiyou"></TEXTAREA></td>
+      </tr>
+      <tr>
+        <td align="right">ステータス：</td>
+        <td><SELECT name="status">
+              <OPTION value="micyakusyu">未着手</OPTION>
+              <OPTION value="cyakusyucyu">着手中</OPTION>
+              <OPTION value="kanryou">完了</OPTION>
+            </SELECT>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="button" value="登録" onclick=""></td>
+        <td></td>
+      </tr>
+      </table>
+                
     </FORM><br><br>
     <p>
     *:;;:*+*:;;:*+*:;;:*+ TODOリスト *:;;:*+*:;;:*+*:;;:*+
